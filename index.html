@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SCHLAGER Benefiz-Event – Stars und Fans gegen Krebs</title>
+<meta name="description" content="Schlager-Benefiz-Event zugunsten der Deutschen Krebshilfe am 17. April 2027 im Marienhof Bochum-Wattenscheid. Die neue Website kommt bald.">
+<style>
+  :root{
+    --bg:#0b0518; --nebula:#4a1a5c; --nebula2:#2a1152;
+    --gold:#e9c164; --gold-soft:#f7e3ab; --ink:#f6f2ff; --muted:#c3b3e8;
+    --line:rgba(233,193,100,0.28);
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0; min-height:100vh;
+    display:flex; flex-direction:column; align-items:center; justify-content:center;
+    padding:40px 16px;
+    background:
+      radial-gradient(ellipse 80% 50% at 50% -10%, var(--nebula), transparent 60%),
+      radial-gradient(ellipse 60% 40% at 85% 20%, var(--nebula2), transparent 55%),
+      var(--bg);
+    color:var(--ink);
+    font-family:system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+    text-align:center;
+  }
+  h1{
+    margin:0;
+    font-family:Georgia, 'Times New Roman', serif;
+    font-weight:900;
+    font-size:clamp(48px, 13vw, 104px);
+    letter-spacing:0.03em;
+    background:linear-gradient(180deg, var(--gold-soft), #d79f36);
+    -webkit-background-clip:text; background-clip:text; color:transparent;
+  }
+  .sub{margin:8px 0 0; font-size:14px; letter-spacing:0.14em; color:var(--muted);}
+  .tagline{margin:16px 0 0; font-family:Georgia, serif; font-style:italic; font-size:21px; color:var(--gold-soft);}
+  .meta{
+    margin:34px auto 0; display:flex; flex-wrap:wrap; justify-content:center; gap:12px; max-width:640px;
+  }
+  .pill{border:1px solid var(--line); border-radius:999px; padding:10px 20px; font-size:15px; background:rgba(255,255,255,0.03);}
+  .pill strong{color:var(--gold-soft);}
+  .soon{margin:40px 0 0; font-size:17px;}
+  .contact{margin:10px 0 0; color:var(--muted); font-size:15px;}
+  a{color:var(--gold-soft);}
+  a:hover{color:var(--gold);}
+  footer{margin-top:56px; font-size:13px; color:var(--muted);}
+</style>
+</head>
+<body>
+  <main>
+    <h1>SCHLAGER</h1>
+    <p class="sub">BENEFIZ&#8209;EVENT &nbsp;&middot;&nbsp; ZUGUNSTEN DER DEUTSCHEN KREBSHILFE</p>
+    <p class="tagline">Stars und Fans, gegen Krebs.</p>
+
+    <div class="meta">
+      <span class="pill"><strong>Samstag, 17. April 2027</strong></span>
+      <span class="pill">Beginn <strong>16:30 Uhr</strong></span>
+      <span class="pill">Marienhof, Günnigfelder Str. 34, Bochum&#8209;Wattenscheid</span>
+    </div>
+
+    <p class="soon">Unsere neue Website ist bald für euch da.</p>
+    <p class="contact">Fragen &amp; Ticketanfragen: <a href="mailto:starsundfans@web.de">starsundfans@web.de</a></p>
+  </main>
+  <footer>&copy; 2026 &middot; Benefiz-Event zugunsten der Deutschen Krebshilfe</footer>
+</body>
+</html>
